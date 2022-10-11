@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>Partfolio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+  <div class="container header__container">
+    <nav class="nav" title="">
+      <a href="#" class="header__logo">
+        <img src="img/logo.svg" alt="logo" />
+      </a>
+      <ul class="nav__list list-reset" data-menu>
+        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Reviews</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
+      </ul>
+      <button
+        class="burger"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        data-burger
+      >
+        <span class="burger__line"></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+      <main class="main">
+        <section class="hero">
+  <div class="container hero__container">
+    <div class="hero__content">
+      <h1 class="hero__title">Michael Scofield</h1>
+      <p class="hero__descr">Fullstack web developer</p>
+      <ul class="hero__scils list-reset">
+        <li class="hero__scils-item">UI / UX Design</li>
+        <li class="hero__scils-item">QA Testing</li>
+        <li class="hero__scils-item">Mobile Apps</li>
+        <li class="hero__scils-item">Web development</li>
+      </ul>
+    </div>
+    <div class="hero__convas">
+      <canvas class="hero__convas-item" id="canvasOne" width="492" height="476">
+        Your browser does not support HTML5 canvas.
+      </canvas>
+    </div>
+  </div>
+</section>
+ <section class="about">
+  <div class="container about__container">
+    <h4 class="about__title title">About</h4>
+    <h5 class="about__sub-title sub-title">History of my development:</h5>
+    <div class="about__history history">
+      <div class="history__item">
+        <div class="history__data">2015</div>
+        <p class="history__descr">First project. Blog for the teacher</p>
+      </div>
+      <div class="history__item">
+        <div class="history__data">2016</div>
+        <p class="history__descr">
+          Development of the first mobile application
+        </p>
+      </div>
+      <div class="history__item">
+        <div class="history__data">2017</div>
+        <p class="history__descr">The portfolio includes over 100 projects</p>
+      </div>
+      <div class="history__item">
+        <div class="history__data">2018</div>
+        <p class="history__descr">First international project</p>
+      </div>
+      <div class="history__item">
+        <div class="history__data">2019</div>
+        <p class="history__descr">
+          Launching a personal web development course
+        </p>
+      </div>
+      <div class="history__item">
+        <div class="history__data">2020+</div>
+        <p class="history__descr">Started working in Google</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="projects">
+  <div class="container projects__container">
+    <h4 class="projects__title title">Projects</h4>
+    <h5 class="projects__sub-title sub-title">
+      100+ projects on different topics:
+    </h5>
+    <div class="tabs" data-tabs>
+      <div class="tabs__nav">
+        <div class="tabs__nav-item tabs__nav-active">Blogs</div>
+        <div class="tabs__nav-item">CRM</div>
+        <div class="tabs__nav-item">Educational platform</div>
+        <div class="tabs__nav-item">Banking applications</div>
+        <div class="tabs__nav-item">Mobile applications</div>
+        <div class="tabs__nav-item">Mobile games</div>
+        <div class="tabs__nav-item">Social networks</div>
+      </div>
+      <div class="tabs__content">
+        <div class="tabs__panel">
+          <div class="tabs__title">Blogs</div>
+          <div class="tabs__accordion">
+            <div class="tabs__accordion-trigger content-active">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Blog 1</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Blog 2</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Blog 3</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__panel">
+          <div class="tabs__title">CRM</div>
+          <div class="tabs__accordion">
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">CRM 1</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">CRM 2</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">CRM 3</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__panel">
+          <div class="tabs__title">Educational platform</div>
+          <div class="tabs__accordion">
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Educational platform 1</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Educational platform 2</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Educational platform 3</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__panel">
+          <div class="tabs__title">Banking applications</div>
+          <div class="tabs__accordion">
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Banking applications 1</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Banking applications 2</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Banking applications 3</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__panel">
+          <div class="tabs__title">Mobile applications</div>
+          <div class="tabs__accordion">
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Mobile applications 1</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Mobile applications 2</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Mobile applications 3</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__panel">
+          <div class="tabs__title">Mobile games</div>
+          <div class="tabs__accordion">
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Mobile games 1</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Mobile games 2</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Mobile games 3</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__panel">
+          <div class="tabs__title">Social networks</div>
+          <div class="tabs__accordion">
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Social networks 1</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Social networks 2</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="tabs__accordion-trigger">
+              <div class="tabs__accordion-content">
+                <div class="tabs__accordion-title">Social networks 3</div>
+                <div class="tabs__accordion-text">
+                  some kind of link to the site
+                </div>
+              </div>
+              <div class="tabs__accordion-arrow">
+                <img src="img/arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects__write">
+      <div class="projects__write-header">
+        Write to me and I will answer within the next 24 hours
+      </div>
+      <p class="projects__write-text">Discuss the project</p>
+      <div class="projects__write-col"></div>
+    </div>
+  </div>
+</section>
+ <section class="reviews">
+  <div class="container reviews__container">
+    <h4 class="title reviews__title">Reviews</h4>
+    <p class="sub-title reviews__sub-title">What my clients say about me:</p>
+    <div class="reviews__content">
+      <div class="swiper reviews__swiper">
+        <div class="swiper-wrapper reviews__swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews__swiper-item">
+              <div class="reviews__swiper-img">
+                <img src="img/reviews-img-1.png" alt="" />
+              </div>
+              <div class="reviews__swiper-name">Lincoln Burrows</div>
+              <div class="reviews__swiper-descr">
+                Thanks to Michael for doing everything efficiently on time and
+                without broaches. I recommend this specialist for work. Special
+                thanks to Michael for the work that was not included in the
+                original.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__swiper-item">
+              <div class="reviews__swiper-img">
+                <img src="img/reviews-img-2.png" alt="" />
+              </div>
+              <div class="reviews__swiper-name">Lincoln Burrows</div>
+              <div class="reviews__swiper-descr">
+                Thank you very much for your work, the project was completed
+                very quickly and efficiently. I recommend it as a reliable
+                performer! I will contact you in the future.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__swiper-item">
+              <div class="reviews__swiper-img">
+                <img src="img/reviews-img-3.png" alt="" />
+              </div>
+              <div class="reviews__swiper-name">Lincoln Burrows</div>
+              <div class="reviews__swiper-descr">
+                The performer who specifically understands the task. Very cool
+                and easy to communicate. I did an excellent job, I will contact
+                you. I advise everyone!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__arrow">
+        <div class="reviews__arrow-prev">
+          <img src="img/arrow-prev.svg" alt="" />
+        </div>
+        <div class="reviews__arrow-next">
+          <img src="img/arrow-next.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      </main>
+
+      <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__img"><img src="img/footer-img.png" alt="" /></div>
+    <div class="footer__content">
+      <h4 class="footer__title">
+        Calculate the timing and cost of your project
+      </h4>
+      <p class="footer__text">Leave your phone number for communication</p>
+      <form action="#" class="footer__form form">
+        <div class="form__item">
+          <input type="text" class="form__input" placeholder="Name" />
+        </div>
+        <div class="form__item">
+          <input type="tel" class="form__input" placeholder="Phone" />
+        </div>
+        <div class="form__item">
+          <textarea placeholder="Message" rows="5" class="form__text">
+          </textarea>
+        </div>
+        <div class="form__btn">
+          <button type="submit" class="form__btn-item">
+            Discuss the project
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</footer>
+
+      
+    </div>
+  </body>
+</html>
